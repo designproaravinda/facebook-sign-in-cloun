@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up for Facebook | Facebook</title>
+    <link rel="icon" href="/img/Facebook-icon.webp">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Nabla&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Scribble&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    height: 750px;
+    background-color:#f0f2f5 ;
+}
+
+.Heading h1{
+    background-color: #f0f2f5;
+    color: #0866ff;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.form-cotainer{
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 14px;
+    
+}
+
+.form-heading{
+    background-color: #ffffff;
+    width: 432px;
+    text-align: center;
+    padding: 10px 16px;
+    border-bottom: 1px solid rgb(218, 216, 216);
+    border-radius: 8px 8px 0 0;
+
+}
+
+.form-heading p{
+    color: rgb(129, 129, 129);
+}
+
+.form-body{
+    background-color: #ffffff;
+    width: 432px;
+    text-align: center;
+    padding: 16px;
+    border-radius: 0px 0px 8px 8px  ;
+}
+
+.Name-input{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.Name-input input{
+    padding: 11px;
+    border-radius: 7px;
+    border: 1px solid rgb(218, 216, 216);
+    
+}
+
+.form-body .Mobile-input{
+    width: 100%;
+    margin-top: 10px;
+    padding: 11px;
+    border-radius: 7px;
+    border: 1px solid rgb(218, 216, 216);
+    
+}
+
+.form-body .paswrd-input{
+    width: 100%;
+    margin-top: 10px;
+    padding: 11px;
+    border-radius: 7px;
+    border: 1px solid rgb(218, 216, 216);
+}
+
+.dob-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.dob-box select{
+    width: 125px;
+    margin-top: 5px;
+    padding: 8px;
+    border-radius: 7px;
+    border: 1px solid rgb(218, 216, 216);
+}
+
+.dob-title p{
+    margin-top: 12px;
+    text-align: left;
+    font-size: 11px;
+    color: rgb(75, 73, 73);
+}
+
+.gender-Female{
+    border: 1px solid rgb(218, 216, 216);
+    width: 128.28px;
+    margin-top: 5px;
+    padding: 8px 0px 8px 0 ;
+    border-radius: 7px;
+    border: 1px solid rgb(218, 216, 216);
+}
+
+.gender-Female label{
+    padding: 0 28px 0 2px;
+    font-size: 15px;
+    
+}
+
+.gender-Female input{
+    margin-top: 4px;
+}
+
+.gender-male{
+    border: 1px solid rgb(218, 216, 216);
+    width: 128.28px;
+    margin-top: 5px;
+    padding: 8px 0px 8px 0 ;
+    border-radius: 7px;
+    border: 1px solid rgb(218, 216, 216);
+}
+
+.gender-male label{
+    padding: 0 28px 0 2px;
+    font-size: 15px;
+    
+}
+
+.gender-male input{
+    margin-top: 4px;
+}
+
+.gender-custom{
+    border: 1px solid rgb(218, 216, 216);
+    width: 128.28px;
+    margin-top: 5px;
+    padding: 8px 0px 8px 0 ;
+    border-radius: 6px;
+    border: 1px solid rgb(218, 216, 216);
+}
+
+.gender-custom label{
+    padding: 0 28px 0 2px;
+    font-size: 15px;
+    
+}
+
+.gender-custom input{
+    margin-top: 4px;
+}
+
+.footer-para1{
+    margin: 11px 0px;
+    text-align: left;
+    font-size: 11px;
+    color: rgb(75, 73, 73);
+}
+
+.footer-para1 a{
+    text-decoration: none;
+    color: #1877f2;
+}
+
+.footer-para2 a{
+    text-decoration: none;
+    color: #1877f2;
+}
+
+.footer-para2{
+    margin: 11px 0px;
+    text-align: left;
+    font-size: 11px;
+    color: rgb(75, 73, 73);
+}
+
+.footer-button button{
+    width: 165px;
+    padding: 8px 0px 8px 0 ;
+    border-radius: 7px;
+    background-color:#00a400 ;
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    border: 1px solid rgb(218, 216, 216);
+    
+}
+
+.footer-button{
+    width: 400px;
+    height: auto;
+    margin-top: 18px;
+}
+
+.footer-existing{
+    padding: 20px 0px;
+
+}
+
+.footer-existing a{
+    text-decoration: none;
+    color: #1877f2;
+}
+
+.fotter-link{
+    padding: 30px 0 0;
+    display: flex;
+    justify-content: center;
+    font-size: 11px;
+    color: rgb(75, 73, 73);
+    
+
+}
+
+ul li{
+    display: inline;
+}
+
+li{
+    margin-left: 5px;
+}
+
+li a{
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+.line-ctrl{
+    background-color:rgb(218, 216, 216);
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    
+}
+
+.fotter-line{
+    width: 980px;
+    height: 2px;
+    background-color:rgb(218, 216, 216) ;
+}
+
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="Heading">
+            <h1>facebook</h1>
+        </div>
+        <div class="form-cotainer">
+            <div class="form-heading">
+                <h2>Create a new account</h2>
+                <p>It's quick and easy.</p>
+            </div>
+
+            <div class="form-body">
+
+                <form>
+                    <div class="Name-input">
+                        <input type="text" placeholder="First Name">
+                        <input type="text" placeholder="Surname">
+                    </div>
+                    <input class="Mobile-input" type="text" placeholder="Mobile numbe or email address">
+                    <input class="paswrd-input" type="password" placeholder="New Password">
+                    <div class="dob-title">
+                        <p>Date of birth</p>
+                    </div>
+                    <div class="dob-box">
+                        <div class="don-date">
+                            <select title="date">
+                                <option>3</option>
+                            </select>
+                        </div>
+
+                        <div class="don-month">
+                            <select title="month">
+                                <option>Apr</option>
+                            </select>
+                        </div>
+
+                        <div class="don-year">
+                            <select title="year">
+                                <option>2024</option>
+                            </select>
+                        </div>
+
+                    </div>
+
+                    <div class="dob-title">
+                        <p>Gender</p>
+                    </div>
+                    <div class="dob-box">
+
+                        <div class="gender-Female">
+                            <label for="Female">Female</label>
+                            <input name="Gender" id="Female" type="radio">
+
+                        </div>
+
+                        <div class="gender-male">
+                            <label for="male">Male</label>
+                            <input name="Gender" id="male" type="radio">
+                        </div>
+
+                        <div class="gender-custom">
+                            <label for="Custom">Custom</label>
+                            <input name="Gender" id="Custom" type="radio">
+                        </div>
+
+                    </div>
+                </form>
+
+                <p class="footer-para1">People who use our service may have uploaded your contact informtion to
+                    Facebook. <a href="">Learn more</a></p>
+
+                <p class="footer-para2">By clicking Sign Up, you agree to our <a href="">Tems, privacy Policy</a>and <a
+                        href="">Cookies policy.</a>You may receive SMS notification from us and can opt out at any time.
+                </p>
+
+                <div class="footer-button">
+                    <button>Sign Up</button>
+                </div>
+
+                <div class="footer-existing">
+                    <a href="">Already have an account?</a>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="fotter-link">
+        <ul>
+            <li>English (UK)</li>
+            <li><a href="">தமிழ்</a></li>
+            <li><a href="">తెలుగు</a></li>
+            <li><a href="">ಕನ್ನಡ</a></li>
+            <li><a href="">اردو</a></li>
+            <li><a href="">हिन्दी</a></li>
+            <li><a href="">മലയാളം</a></li>
+            <li><a href="">සිංහල</a></li>
+            <li><a href="">ਪੰਜਾਬੀ</a></li>
+            <li><a href="">বাংলা</a></li>
+            <li><a href="">ગુજરાતી</a></li>
+        </ul>
+
+    </div>
+    <div class="line-ctrl">
+        <div class="fotter-line">
+        </div>
+    </div>
+
+    <div class="fotter-link">
+        <ul>
+            <li><a href="">Sign UP</a></li>
+            <li><a href="">Log in</a></li>
+            <li><a href="">Messenger</a></li>
+            <li><a href="">Facebook Lite</a></li>
+            <li><a href="">Video</a></li>
+            <li><a href="">Places</a></li>
+            <li><a href="">Games</a></li>
+            <li><a href="">Marketplace</a></li>
+            <li><a href="">Meta Pay</a></li>
+            <li><a href="">Meta Store</a></li>
+            <li><a href="">Meta Quest</a></li>
+            <li><a href="">Imagine with Meta AI</a></li>
+            <li><a href="">Instagram</a></li><br><br>
+            <li><a href="">Threads</a></li>
+            <li><a href="">Fundraisers</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Voting Information Centre</a></li>
+            <li><a href="">Privacy Policy</a></li>
+            <li><a href="">Privacy Centre</a></li>
+            <li><a href="">Groups</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Create ad</a></li>
+            <li><a href="">Create Page</a></li>
+            <li><a href="">Developers</a></li>
+            <li><a href="">Careers</a></li><br><br>
+            <li><a href="">Cookies</a></li>
+            <li><a href="">AdChoices</a></li>
+            <li><a href="">Terms</a></li>
+            <li><a href="">Help</a></li>
+            <li><a href="">Contact uploading and non-users</a></li>
+        </ul>
+
+    </div>
+</body>
+
+</html>
